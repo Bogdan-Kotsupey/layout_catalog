@@ -1,0 +1,18 @@
+.image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  transition: 1s;
+
+  &:hover {
+    transform-origin: bottom;
+    border: 3px solid #f3f3f3;
+    transform: scale(1.2);
+    padding: 12px;
+  }
+
+  &__screen {
+    width: 160px;
+    height: 134px;
+  }
+}

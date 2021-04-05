@@ -1,0 +1,25 @@
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 20px;
+  height: 40px;
+  background-color: $mainColor;
+  color: white;
+
+  border: 1px solid $mainColor;
+  border-radius: 5px;
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+
+  text-decoration: none;
+  transition: 700ms;
+
+  &:hover {
+    background-color: white;
+    color: $mainColor;
+  }
+}
