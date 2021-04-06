@@ -1,6 +1,6 @@
 .main {
   padding: 0 $pading;
-  display: flex;
+  display: grid;
   justify-content: center;
 
   &__card {
@@ -14,8 +14,8 @@
 
   &__container {
     width: mainWidth($cardWidth, $gap, $pading);
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
     justify-content: center;
     height: min-content;
   }
