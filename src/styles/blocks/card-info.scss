@@ -12,7 +12,8 @@
   }
 
   &__rating {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
     justify-content: space-between;
     align-items: center;
     margin-top: 15px;
@@ -24,7 +25,8 @@
   }
 
   &__price-section {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
     justify-content: space-between;
     align-items: baseline;
     margin-top: 20px;

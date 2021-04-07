@@ -37,7 +37,8 @@
   }
 
   &__list {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(8, auto);
     list-style: none;
   }
 
